@@ -42,4 +42,4 @@ jobs:
               NIFI_VERSION=${{env.NIFI_VERSION}}
           platforms: linux/amd64,linux/arm64
           push: true
-          tags: ghcr.io/${{ github.repository }}/nifi-${{env.NIFI_VERSION}}-jre17
+          tags: ghcr.io/${{ github.repository }}/nifi-${{env.NIFI_VERSION}}-${{env.IMAGE_TAG}}
