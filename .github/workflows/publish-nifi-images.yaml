@@ -6,7 +6,7 @@ env:
   NIFI_VERSION: '1.25.0'
   BASE_URL: 'https://dlcdn.apache.org'
   IMAGE_NAME: 'public.ecr.aws/docker/library/eclipse-temurin'
-  IMAGE_TAG: '17-jre'
+  IMAGE_TAG: '21-jre'
 
 jobs:
   build:
